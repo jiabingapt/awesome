@@ -1,1 +1,265 @@
-<mxfile host="app.diagrams.net" modified="2020-08-17T04:05:45.173Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" version="13.6.2" etag="PJdb5wy_gguqDfyFfL4d" type="github"><diagram id="dxhuNMQIHAr0Fr-byvL5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-08-18T05:03:18.926Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="URGmCw-7Cxl8rMIeIGU4" version="13.6.2" type="github">
+  <diagram id="dxhuNMQIHAr0Fr-byvL5" name="Page-1">
+    <mxGraphModel dx="2844" dy="1666" grid="0" gridSize="21" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="700" pageHeight="1000" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HGymCE_MMpxh3qqSFFxv-1" target="HGymCE_MMpxh3qqSFFxv-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-16" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;first_value() over()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HGymCE_MMpxh3qqSFFxv-15">
+          <mxGeometry x="0.2133" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HGymCE_MMpxh3qqSFFxv-1" target="HGymCE_MMpxh3qqSFFxv-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="250" />
+              <mxPoint x="290" y="540" />
+              <mxPoint x="640" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-24" value="新增用户表&lt;br&gt;join&lt;br&gt;新日活模型&lt;br&gt;where imp_date &amp;gt; xxx&lt;br&gt;and imp_date&amp;lt; xxx" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HGymCE_MMpxh3qqSFFxv-22">
+          <mxGeometry x="-0.341" y="1" relative="1" as="geometry">
+            <mxPoint y="-43" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-1" value="&lt;span style=&quot;color: rgb(77 , 77 , 77) ; font-family: &amp;#34;helvetica neue for number&amp;#34; , , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 13px ; background-color: rgb(255 , 255 , 255)&quot;&gt;【微视】新日活模型weishi_user_active_model_topic_daily&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="190" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HGymCE_MMpxh3qqSFFxv-2" target="HGymCE_MMpxh3qqSFFxv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-21" value="select&lt;br&gt;qimei&lt;br&gt;where is_new= ‘1’" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HGymCE_MMpxh3qqSFFxv-20">
+          <mxGeometry x="0.1882" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HGymCE_MMpxh3qqSFFxv-2" target="HGymCE_MMpxh3qqSFFxv-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="810" />
+              <mxPoint x="290" y="540" />
+              <mxPoint x="640" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-27" value="新增用户表&lt;br&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;left join&lt;br&gt;新老融合表&lt;br&gt;select&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; qimei,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; first_channel_id,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; sum(log_time) log_time&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HGymCE_MMpxh3qqSFFxv-25">
+          <mxGeometry x="-0.2778" relative="1" as="geometry">
+            <mxPoint x="50" y="51" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HGymCE_MMpxh3qqSFFxv-2" target="HGymCE_MMpxh3qqSFFxv-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-36" value="新增用户表&lt;br&gt;join&lt;br&gt;sum（新老融合表特征）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HGymCE_MMpxh3qqSFFxv-35">
+          <mxGeometry x="0.1922" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-2" value="&lt;p style=&quot;box-sizing: border-box ; margin-top: 0px ; margin-bottom: 0px ; font-size: 13px ; padding: 4px ; line-height: 18px ; overflow: hidden ; display: flex ; color: rgb(77 , 77 , 77) ; font-family: &amp;#34;helvetica neue for number&amp;#34; , , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif&quot;&gt;&lt;span style=&quot;box-sizing: border-box ; display: block ; width: 220px ; padding: 0px 4px ; word-break: break-all&quot;&gt;【新老融合】微视用户日活融合中间表weishi_user_qimei_dau_mix_mid_daily&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box ; margin-top: 0px ; margin-bottom: 0px ; font-size: 13px ; padding: 4px ; line-height: 18px ; overflow: hidden ; display: flex ; color: rgb(77 , 77 , 77) ; font-family: &amp;#34;helvetica neue for number&amp;#34; , , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif&quot;&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="815" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HGymCE_MMpxh3qqSFFxv-4" target="HGymCE_MMpxh3qqSFFxv-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-43" value="新增用户表&lt;br&gt;left join&lt;br&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;imp_date = 30d and award_days_last_1_days=1&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HGymCE_MMpxh3qqSFFxv-42">
+          <mxGeometry x="0.4216" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HGymCE_MMpxh3qqSFFxv-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1354" y="1636" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="1340" />
+              <mxPoint x="791" y="1340" />
+              <mxPoint x="791" y="1672" />
+              <mxPoint x="1354" y="1672" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-73" value="取新增用户新增第1-7天每一天的红包数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HGymCE_MMpxh3qqSFFxv-68">
+          <mxGeometry x="0.4602" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-4" value="&lt;span style=&quot;color: rgb(77 , 77 , 77) ; font-family: &amp;#34;helvetica neue for number&amp;#34; , , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 13px ; background-color: rgb(255 , 255 , 255)&quot;&gt;[福利] 用户长周期维度表| &lt;br&gt;取红包数据dim_weishi_task_qimei_long_cycle_di&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1138" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HGymCE_MMpxh3qqSFFxv-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-6" value="&lt;span style=&quot;color: rgb(77 , 77 , 77) ; font-family: &amp;#34;helvetica neue for number&amp;#34; , , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 13px ; background-color: rgb(255 , 255 , 255)&quot;&gt;t_pba_weishi_lt_new_user&lt;br&gt;提取的新增用户表&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="510" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HGymCE_MMpxh3qqSFFxv-11" target="HGymCE_MMpxh3qqSFFxv-54">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1549" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-77" value="取新增用户新增当天特征值" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HGymCE_MMpxh3qqSFFxv-56">
+          <mxGeometry x="0.8869" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-11" value="t_pba_weishi_lt_fstv&lt;br&gt;新增用户新增当天的特征" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="190" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HGymCE_MMpxh3qqSFFxv-18" target="HGymCE_MMpxh3qqSFFxv-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-44" value="新增用户&lt;br&gt;left join&lt;br&gt;LT3&lt;br&gt;left join&lt;br&gt;LT7&lt;br&gt;.&lt;br&gt;.&lt;br&gt;." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HGymCE_MMpxh3qqSFFxv-41">
+          <mxGeometry x="0.4599" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HGymCE_MMpxh3qqSFFxv-18" target="HGymCE_MMpxh3qqSFFxv-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-47" value="select&lt;br&gt;first_date,&lt;br&gt;first_channel_id,&lt;br&gt;avg(lt)&lt;br&gt;group by&amp;nbsp;&lt;br&gt;first_date,&lt;br&gt;first_channel_id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HGymCE_MMpxh3qqSFFxv-46">
+          <mxGeometry x="0.3421" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="HGymCE_MMpxh3qqSFFxv-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1362.294117647059" y="1612.9411764705883" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-72" value="取新增用户第3、7天LT值" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HGymCE_MMpxh3qqSFFxv-71">
+          <mxGeometry x="0.8697" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-18" value="微视LT &amp;amp; 时长 &amp;amp; 渠道表&lt;br&gt;t_pba_weishi_lt_label_3&lt;br&gt;t_pba_weishi_lt_label_7&lt;br&gt;t_pba_weishi_lt_label_14&lt;br&gt;t_pba_weishi_lt_label_21&lt;br&gt;t_pba_weishi_lt_label_30&lt;br&gt;t_pba_weishi_lt_label_60&lt;br&gt;t_pba_weishi_lt_label_180&lt;br&gt;t_pba_weishi_lt_label_365" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="460" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HGymCE_MMpxh3qqSFFxv-32" target="HGymCE_MMpxh3qqSFFxv-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-40" value="新增用户&lt;br&gt;left join&lt;br&gt;lt_1d_acc&lt;br&gt;left join&lt;br&gt;lt_3d_acc&lt;br&gt;left join&lt;br&gt;.&lt;br&gt;.&lt;br&gt;." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HGymCE_MMpxh3qqSFFxv-39">
+          <mxGeometry x="-0.15" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HGymCE_MMpxh3qqSFFxv-32" target="HGymCE_MMpxh3qqSFFxv-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1364" y="2255" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="807" y="900" />
+              <mxPoint x="807" y="1622" />
+              <mxPoint x="1356" y="1622" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-70" value="取新增用户第1、3、7天用户特征值聚合" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HGymCE_MMpxh3qqSFFxv-67">
+          <mxGeometry x="0.344" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-32" value="&lt;span style=&quot;color: rgb(77 , 77 , 77) ; font-family: &amp;#34;helvetica neue for number&amp;#34; , , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 13px ; background-color: rgb(255 , 255 , 255)&quot;&gt;新增用户特征聚合表&lt;br&gt;t_pba_weishi_lt_1d_acc&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(77 , 77 , 77) ; font-family: &amp;#34;helvetica neue for number&amp;#34; , , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 13px ; background-color: rgb(255 , 255 , 255)&quot;&gt;t_pba_weishi_lt_3d_acc&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(77 , 77 , 77) ; font-family: &amp;#34;helvetica neue for number&amp;#34; , , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 13px ; background-color: rgb(255 , 255 , 255)&quot;&gt;t_pba_weishi_lt_7d_acc&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(77 , 77 , 77) ; font-family: &amp;#34;helvetica neue for number&amp;#34; , , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 13px ; background-color: rgb(255 , 255 , 255)&quot;&gt;t_pba_weishi_lt_14d_acc&lt;/span&gt;&lt;span style=&quot;color: rgb(77 , 77 , 77) ; font-family: &amp;#34;helvetica neue for number&amp;#34; , , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 13px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(77 , 77 , 77) ; font-family: &amp;#34;helvetica neue for number&amp;#34; , , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 13px ; background-color: rgb(255 , 255 , 255)&quot;&gt;t_pba_weishi_lt_30d_acc&lt;/span&gt;&lt;span style=&quot;color: rgb(77 , 77 , 77) ; font-family: &amp;#34;helvetica neue for number&amp;#34; , , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 13px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="790" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HGymCE_MMpxh3qqSFFxv-37" target="HGymCE_MMpxh3qqSFFxv-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.005;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HGymCE_MMpxh3qqSFFxv-37" target="HGymCE_MMpxh3qqSFFxv-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-37" value="&lt;span style=&quot;color: rgb(77 , 77 , 77) ; font-family: &amp;#34;helvetica neue for number&amp;#34; , , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 13px ; background-color: rgb(255 , 255 , 255)&quot;&gt;微视qimei全量用户画像dws_weishi_user_qimei_profile_df&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1530" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HGymCE_MMpxh3qqSFFxv-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1504" y="1310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1504" y="1168" />
+              <mxPoint x="1504" y="1310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-38" value="&lt;span style=&quot;color: rgb(77 , 77 , 77) ; font-family: &amp;#34;helvetica neue for number&amp;#34; , , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 13px ; background-color: rgb(255 , 255 , 255)&quot;&gt;特征1d - 30d的聚合中间表&lt;br&gt;t_pba_ws_lt_feat_v1_sum&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1138" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HGymCE_MMpxh3qqSFFxv-45" target="HGymCE_MMpxh3qqSFFxv-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-66" value="新增用户表&lt;br&gt;left join&lt;br&gt;past_lt7&lt;br&gt;left join past_lt14&lt;br&gt;left join past_lt30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HGymCE_MMpxh3qqSFFxv-65">
+          <mxGeometry x="0.8498" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.486;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HGymCE_MMpxh3qqSFFxv-45" target="HGymCE_MMpxh3qqSFFxv-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-79" value="取渠道过去x天的前一个星期平均LT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HGymCE_MMpxh3qqSFFxv-78">
+          <mxGeometry x="0.6877" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-45" value="&lt;span style=&quot;color: rgb(77 , 77 , 77) ; font-family: &amp;#34;helvetica neue for number&amp;#34; , , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 13px ; background-color: rgb(255 , 255 , 255)&quot;&gt;新增渠道过去x天前一星期的平均LT值&lt;br&gt;t_pba_weishi_past_lt7&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(77 , 77 , 77) ; font-family: &amp;#34;helvetica neue for number&amp;#34; , , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 13px ; background-color: rgb(255 , 255 , 255)&quot;&gt;t_pba_weishi_past_lt14&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(77 , 77 , 77) ; font-family: &amp;#34;helvetica neue for number&amp;#34; , , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 13px ; background-color: rgb(255 , 255 , 255)&quot;&gt;t_pba_weishi_past_lt30&lt;/span&gt;&lt;span style=&quot;color: rgb(77 , 77 , 77) ; font-family: &amp;#34;helvetica neue for number&amp;#34; , , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 13px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="460" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HGymCE_MMpxh3qqSFFxv-48" target="HGymCE_MMpxh3qqSFFxv-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1410" y="1270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="960" y="1430" />
+              <mxPoint x="960" y="1290" />
+              <mxPoint x="1477" y="1290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-48" value="画像数据-新增第30天&lt;br&gt;t_pba_weishi_lt_huaxiang" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1400" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HGymCE_MMpxh3qqSFFxv-49" target="HGymCE_MMpxh3qqSFFxv-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1506" y="1913" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="495" y="1806" />
+              <mxPoint x="1486" y="1806" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-75" value="取新增当天画像" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HGymCE_MMpxh3qqSFFxv-74">
+          <mxGeometry x="0.2773" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-49" value="画像数据-新增当天&lt;br&gt;t_pba_weishi_lt_huaxiang_newday" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1640" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HGymCE_MMpxh3qqSFFxv-52" target="HGymCE_MMpxh3qqSFFxv-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-52" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#4d4d4d&quot;&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;微视feat(t+30)t_pba_ws_lt_feat_v1&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1373" y="1321" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-54" value="&lt;span style=&quot;color: rgb(77 , 77 , 77) ; font-family: &amp;#34;helvetica neue for number&amp;#34; , , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 13px ; background-color: rgb(255 , 255 , 255)&quot;&gt;t_pba_ws_lt_feat_v1_7d&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1356" y="1612" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-55" value="微视model（t+30）t_pba_ws_lt_feat_model" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1787" y="1321" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-59" value="新增用户&lt;br&gt;left join&lt;br&gt;t_pba_ws_lt_feat_v1_sum&lt;br&gt;t_pba_weishi_lt_huaxiang&lt;br&gt;t_pba_weishi_lt_fstv" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1484" y="1275" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HGymCE_MMpxh3qqSFFxv-64" value="one-hot 处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1681" y="1338" width="75" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
